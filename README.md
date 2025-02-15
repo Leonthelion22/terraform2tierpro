@@ -1,2 +1,2 @@
-# terraform2tierpro
+# terraform2tierproject
 terraform two tier project
