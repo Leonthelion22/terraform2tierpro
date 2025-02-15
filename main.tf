@@ -3,7 +3,7 @@ provider "aws" {
   region = "us-east-1"
 }
 
-# Define the VPC with a CIDR Block
+# Define and create the VPC with a CIDR Block
 resource "aws_vpc" "leonvpc" {
   cidr_block           = "10.0.0.0/16"
   enable_dns_support   = true
